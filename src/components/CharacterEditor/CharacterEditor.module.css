@@ -2,11 +2,20 @@
   padding-top: 128px;
   padding-bottom: 64px;
 }
-
+.characterEditor::after {
+  position: fixed;
+  content: '';
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+  background-color: hsl(195deg, 20%, 86%);
+}
 .maxWidthWrapper {
 }
 
 .header {
+  max-width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,6 +33,10 @@
 }
 
 .characterWrapper {
+  max-width: 35%;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .controlColumn {
